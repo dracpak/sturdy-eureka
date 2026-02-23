@@ -50,6 +50,7 @@ def decide(i: int, rnd: random.Random) -> str:
         return f"Buzz({pb})"
     return str(i)
 
+# Making some random comment here
 
 def run(n: int, seed: int | None = None) -> List[str]:
     rnd = random.Random(seed)
@@ -67,4 +68,5 @@ def main(argv=None):
 
 
 if __name__ == '__main__':
+    print("Hello World!")
     main()
